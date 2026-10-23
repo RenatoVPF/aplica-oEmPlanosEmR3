@@ -36,17 +36,7 @@ O código foi escrito em C++17. As operações matemáticas estão em `vetores.c
 
 **Nota:** a equação exibida pode ser um múltiplo não nulo da equação acima, pois o programa normaliza os coeficientes. Isso não altera o plano geométrico.
 
-## 6. Evidências de execução
 
-Inserir capturas reais obtidas no Ubuntu, sem fabricar resultados:
-
-- **Figura 1:** janela com plano horizontal e teste de pertinência positivo — `evidencias/01-plano-horizontal.png`.
-- **Figura 2:** janela com plano vertical e distância 3 — `evidencias/02-plano-vertical.png`.
-- **Figura 3:** plano inclinado com equação e distância — `evidencias/03-plano-inclinado.png`.
-- **Figura 4:** mensagem de rejeição de três pontos colineares — `evidencias/04-pontos-colineares.png`.
-- **Figura 5 (opcional):** terminal com resultado dos testes automatizados — `evidencias/05-testes.png`.
-
-Após executar os testes, registrar aqui a data, versão do compilador, versão da raylib e os resultados efetivamente observados. Não declarar como executados os testes ainda não realizados.
 
 ## 7. Discussão e limitações
 
@@ -56,4 +46,4 @@ A separação entre os módulos matemáticos e gráficos facilita a manutenção
 
 O projeto demonstra como operações vetoriais e equações de planos podem ser convertidas em um algoritmo computacional e representadas graficamente. O produto vetorial determina a direção normal ao plano, a equação geral permite testar pertinência, e a distância ponto–plano quantifica o afastamento. A visualização interativa facilita a interpretação espacial dos resultados e conecta Geometria Analítica à Computação Gráfica.
 
-**Situação de validação:** os testes do núcleo matemático devem ser executados com o comando do guia. A versão gráfica foi relatada como funcional pelo responsável pelo projeto, mas as capturas e os resultados específicos acima ainda precisam ser anexados.
+
