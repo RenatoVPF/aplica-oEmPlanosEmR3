@@ -1,0 +1,22 @@
+
+# Executaveis gerados pela compilacao
+geometriaComputacional
+testesMatematicos
+*.o
+*.out
+
+# Diretorios de compilacao
+build/
+cmake-build-*/
+
+# Arquivos temporarios
+*.log
+*.tmp
+
+# Configuracoes locais do editor
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
