@@ -60,3 +60,13 @@ que uma imagem ou teste grafico foi executado sem essa verificacao.
 A raylib renderiza um recorte finito do plano infinito. A animacao e
 cinematica ilustrativa: nao simula a dinamica, colisoes, juntas nem
 limites fisicos de um manipulador industrial.
+
+## Recursos graficos da V2
+
+A interface permite habilitar e desabilitar as camadas da trajetoria, vetor
+normal, segmento de distancia perpendicular e identificacoes. O segmento
+perpendicular e obtido pela projecao ortogonal da posicao instantanea da
+ferramenta sobre o plano. Para o relatorio, capture o instante inicial,
+um instante intermediario e o instante final, demonstrando o contato com
+I=(3,2,3). Verifique visualmente no Ubuntu antes de afirmar que a animacao
+foi executada e validada.

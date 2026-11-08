@@ -38,3 +38,20 @@ O GeoGebra 3D pode ser usado como verificacao independente, sem substituir o
 codigo proprio nem as evidencias produzidas pela raylib.
 
 Veja `PARTE4_VALIDACAO.md` para os resultados e orientacoes de evidencia.
+
+## Simulacao Robotica V2 — camadas visuais
+
+A barra superior permite mostrar ou ocultar, de forma independente:
+- Trajetoria orientada da ferramenta (seta laranja).
+- Vetor normal ao plano (seta verde).
+- Distancia perpendicular da ferramenta ao plano (segmento roxo pontilhado).
+- Identificacoes dos pontos e vetores.
+
+A tela exibe o parametro atual e o progresso da animacao. Ao atingir o
+impacto, a ferramenta para; clicar novamente em INICIAR reinicia o movimento.
+A distancia perpendicular e recalculada durante a animacao e corresponde
+ao segmento entre a ferramenta e sua projecao ortogonal no plano.
+
+Observacao: a interface usa a fonte padrao da raylib (mais legivel que a
+fonte decorativa anterior, dependendo da instalacao). Os resultados matematicos
+permanecem baseados na equacao da Secao 3 com termo -4.
